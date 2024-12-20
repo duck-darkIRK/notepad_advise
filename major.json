@@ -1,0 +1,618 @@
+[
+  {
+    "major": {
+      "id": "TT_K35",
+      "name": "Công nghệ thông tin"
+    },
+    "subjects": [
+      {
+        "id": "IS332",
+        "type": "required"
+      },
+      {
+        "id": "GK101",
+        "type": "required"
+      },
+      {
+        "id": "SE312",
+        "type": "required"
+      },
+      {
+        "id": "ML113",
+        "type": "required"
+      },
+      {
+        "id": "ML114",
+        "type": "required"
+      },
+      {
+        "id": "ML115",
+        "type": "required"
+      },
+      {
+        "id": "ML202",
+        "type": "required"
+      },
+      {
+        "id": "ML204",
+        "type": "required"
+      },
+      {
+        "id": "CS102",
+        "type": "required"
+      },
+      {
+        "id": "MA101",
+        "type": "required"
+      },
+      {
+        "id": "CS100",
+        "type": "required"
+      },
+      {
+        "id": "NA151",
+        "type": "required"
+      },
+      {
+        "id": "EC102",
+        "type": "required"
+      },
+      {
+        "id": "VL101",
+        "type": "required"
+      },
+      {
+        "id": "SH131",
+        "type": "required"
+      },
+      {
+        "id": "GE111",
+        "type": "required"
+      },
+      {
+        "id": "GE112",
+        "type": "required"
+      },
+      {
+        "id": "GE121",
+        "type": "required"
+      },
+      {
+        "id": "GE222",
+        "type": "required"
+      },
+      {
+        "id": "GE231",
+        "type": "required"
+      },
+      {
+        "id": "GE232",
+        "type": "required"
+      },
+      {
+        "id": "GE333",
+        "type": "required"
+      },
+      {
+        "id": "GF101",
+        "type": "required"
+      },
+      {
+        "id": "GF102",
+        "type": "required"
+      },
+      {
+        "id": "GJ101",
+        "type": "required"
+      },
+      {
+        "id": "GJ102",
+        "type": "required"
+      },
+      {
+        "id": "GZ101",
+        "type": "required"
+      },
+      {
+        "id": "GZ102",
+        "type": "required"
+      },
+      {
+        "id": "GI101",
+        "type": "required"
+      },
+      {
+        "id": "GI102",
+        "type": "required"
+      },
+      {
+        "id": "GK101",
+        "type": "required"
+      },
+      {
+        "id": "GK102",
+        "type": "required"
+      },
+      {
+        "id": "PG100",
+        "type": "required"
+      },
+      {
+        "id": "PG121",
+        "type": "required"
+      },
+      {
+        "id": "MA104",
+        "type": "required"
+      },
+      {
+        "id": "MA110",
+        "type": "required"
+      },
+      {
+        "id": "MA111",
+        "type": "required"
+      },
+      {
+        "id": "MA120",
+        "type": "required"
+      },
+      {
+        "id": "MA239",
+        "type": "required"
+      },
+      {
+        "id": "MI201",
+        "type": "required"
+      },
+      {
+        "id": "CF213",
+        "type": "required"
+      },
+      {
+        "id": "CS110",
+        "type": "required"
+      },
+      {
+        "id": "CS121",
+        "type": "required"
+      },
+      {
+        "id": "CS122",
+        "type": "required"
+      },
+      {
+        "id": "CS212",
+        "type": "required"
+      },
+      {
+        "id": "CS315",
+        "type": "required"
+      },
+      {
+        "id": "IS222",
+        "type": "required"
+      },
+      {
+        "id": "NW212",
+        "type": "required"
+      },
+      {
+        "id": "CF231",
+        "type": "required"
+      },
+      {
+        "id": "IS314",
+        "type": "required"
+      },
+      {
+        "id": "IS322",
+        "type": "optional"
+      },
+      {
+        "id": "IS330",
+        "type": "optional"
+      },
+      {
+        "id": "IS332",
+        "type": "optional"
+      },
+      {
+        "id": "IS334",
+        "type": "optional"
+      },
+      {
+        "id": "MI322",
+        "type": "optional"
+      },
+      {
+        "id": "SE302",
+        "type": "optional"
+      },
+      {
+        "id": "CS314",
+        "type": "optional"
+      },
+      {
+        "id": "IS403",
+        "type": "optional"
+      },
+      {
+        "id": "IT332",
+        "type": "optional"
+      },
+      {
+        "id": "IT333",
+        "type": "optional"
+      },
+      {
+        "id": "IT380",
+        "type": "optional"
+      },
+      {
+        "id": "IS326",
+        "type": "optional"
+      },
+      {
+        "id": "CS223",
+        "type": "optional"
+      },
+      {
+        "id": "CS224",
+        "type": "optional"
+      },
+      {
+        "id": "CS320",
+        "type": "optional"
+      },
+      {
+        "id": "CS323",
+        "type": "optional"
+      },
+      {
+        "id": "IT320",
+        "type": "optional"
+      },
+      {
+        "id": "IS324",
+        "type": "optional"
+      },
+      {
+        "id": "SE312",
+        "type": "optional"
+      },
+      {
+        "id": "MA238",
+        "type": "optional"
+      },
+      {
+        "id": "MI312",
+        "type": "optional"
+      },
+      {
+        "id": "IP404",
+        "type": "required"
+      },
+      {
+        "id": "IT499",
+        "type": "required"
+      },
+      {
+        "id": "IT486",
+        "type": "required"
+      }
+    ]
+  },
+    {
+    "major": {
+      "id": "AI_K35",
+      "name": "Trí tuệ nhân tạo"
+    },
+    "subjects": [
+      {
+        "id": "IS332",
+        "type": "required"
+      },
+      {
+        "id": "GK101",
+        "type": "required"
+      },
+      {
+        "id": "SE312",
+        "type": "required"
+      },
+      {
+        "id": "ML113",
+        "type": "required"
+      },
+      {
+        "id": "ML114",
+        "type": "required"
+      },
+      {
+        "id": "ML115",
+        "type": "required"
+      },
+      {
+        "id": "ML202",
+        "type": "required"
+      },
+      {
+        "id": "ML204",
+        "type": "required"
+      },
+      {
+        "id": "CS102",
+        "type": "required"
+      },
+      {
+        "id": "MA101",
+        "type": "required"
+      },
+      {
+        "id": "CS100",
+        "type": "required"
+      },
+      {
+        "id": "NA151",
+        "type": "required"
+      },
+      {
+        "id": "EC102",
+        "type": "required"
+      },
+      {
+        "id": "VL101",
+        "type": "required"
+      },
+      {
+        "id": "SH131",
+        "type": "required"
+      },
+      {
+        "id": "GE111",
+        "type": "required"
+      },
+      {
+        "id": "GE112",
+        "type": "required"
+      },
+      {
+        "id": "GE121",
+        "type": "required"
+      },
+      {
+        "id": "GE222",
+        "type": "required"
+      },
+      {
+        "id": "GE231",
+        "type": "required"
+      },
+      {
+        "id": "GE232",
+        "type": "required"
+      },
+      {
+        "id": "GE333",
+        "type": "required"
+      },
+      {
+        "id": "GF101",
+        "type": "required"
+      },
+      {
+        "id": "GF102",
+        "type": "required"
+      },
+      {
+        "id": "GJ101",
+        "type": "required"
+      },
+      {
+        "id": "GJ102",
+        "type": "required"
+      },
+      {
+        "id": "GZ101",
+        "type": "required"
+      },
+      {
+        "id": "GZ102",
+        "type": "required"
+      },
+      {
+        "id": "GI101",
+        "type": "required"
+      },
+      {
+        "id": "GI102",
+        "type": "required"
+      },
+      {
+        "id": "GK101",
+        "type": "required"
+      },
+      {
+        "id": "GK102",
+        "type": "required"
+      },
+      {
+        "id": "PG100",
+        "type": "required"
+      },
+      {
+        "id": "PG121",
+        "type": "required"
+      },
+      {
+        "id": "MA104",
+        "type": "required"
+      },
+      {
+        "id": "MA110",
+        "type": "required"
+      },
+      {
+        "id": "MA111",
+        "type": "required"
+      },
+      {
+        "id": "MA120",
+        "type": "required"
+      },
+      {
+        "id": "MA239",
+        "type": "required"
+      },
+      {
+        "id": "MI201",
+        "type": "required"
+      },
+      {
+        "id": "CF213",
+        "type": "required"
+      },
+      {
+        "id": "CS110",
+        "type": "required"
+      },
+      {
+        "id": "CS121",
+        "type": "required"
+      },
+      {
+        "id": "CS122",
+        "type": "required"
+      },
+      {
+        "id": "CS212",
+        "type": "required"
+      },
+      {
+        "id": "CS315",
+        "type": "required"
+      },
+      {
+        "id": "IS222",
+        "type": "required"
+      },
+      {
+        "id": "NW212",
+        "type": "required"
+      },
+      {
+    "id": "AI130",
+        "type": "required"
+
+      },
+      {
+        "id": "CS321",
+        "type": "required"
+
+      },
+      {
+        "id": "MA238",
+        "type": "required"
+
+      },
+      {
+        "id": "MI302",
+        "type": "required"
+
+      },
+      {
+        "id": "AI220",
+        "type": "required"
+
+      },
+      {
+        "id": "CS320",
+        "type": "required"
+
+      },
+      {
+        "id": "AI310",
+        "type": "required"
+
+      },
+      {
+        "id": "IS330",
+        "type": "required"
+
+      },
+      {
+        "id": "IS332",
+        "type": "required"
+
+      },
+      {
+        "id": "IS326",
+        "type": "required"
+
+      },
+      {
+        "id": "AI320",
+        "type": "required"
+
+      },
+      {
+        "id": "AI321",
+        "type": "required"
+
+      },
+      {
+        "id": "IS326",
+        "type": "optional"
+      },
+      {
+        "id": "CS223",
+        "type": "optional"
+      },
+      {
+        "id": "CS224",
+        "type": "optional"
+      },
+      {
+        "id": "CS320",
+        "type": "optional"
+      },
+      {
+        "id": "CS323",
+        "type": "optional"
+      },
+      {
+        "id": "IT320",
+        "type": "optional"
+      },
+      {
+        "id": "IS324",
+        "type": "optional"
+      },
+      {
+        "id": "SE312",
+        "type": "optional"
+      },
+      {
+        "id": "MA238",
+        "type": "optional"
+      },
+      {
+        "id": "MI312",
+        "type": "optional"
+      },
+      {
+        "id": "IP404",
+        "type": "required"
+      },
+      {
+        "id": "IT499",
+        "type": "required"
+      },
+      {
+        "id": "IT486",
+        "type": "required"
+      }
+    ]
+  }
+]

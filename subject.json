@@ -1,0 +1,503 @@
+[
+  {
+    "id": "ML113",
+    "name": "Triết học Mác - Lênin",
+    "weight": 3,
+    "required": ""
+  },
+  {
+    "id": "ML114",
+    "name": "Kinh tế chính trị Mác - Lênin",
+    "weight": 2,
+    "required": "ML113"
+  },
+  {
+    "id": "ML115",
+    "name": "Chủ nghĩa xã hội khoa học",
+    "weight": 2,
+    "required": "ML114"
+  },
+  {
+    "id": "ML202",
+    "name": "Tư tưởng Hồ Chí Minh",
+    "weight": 2,
+    "required": "ML114"
+  },
+  {
+    "id": "ML204",
+    "name": "Lịch sử Đảng Cộng sản Việt Nam",
+    "weight": 2,
+    "required": "ML114"
+  },
+  {
+    "id": "CS102",
+    "name": "Công dân số",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "MA101",
+    "name": "Logic, suy luận toán học và kỹ thuật đếm",
+    "weight": 3,
+    "required": ""
+  },
+  {
+    "id": "CS100",
+    "name": "Tin đại cương",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "NA151",
+    "name": "Khoa học môi trường",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "EC102",
+    "name": "Nhập môn kinh tế học",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "VL101",
+    "name": "Tiếng Việt thực hành",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "SH131",
+    "name": "Pháp luật đại cương",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "GE111",
+    "name": "Tiếng Anh sơ cấp 1",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "GE112",
+    "name": "Tiếng Anh sơ cấp 2",
+    "weight": 2,
+    "required": "GE111"
+  },
+  {
+    "id": "GE121",
+    "name": "Tiếng Anh sơ trung cấp 1",
+    "weight": 2,
+    "required": "GE112 & GE111"
+  },
+  {
+    "id": "GE222",
+    "name": "Tiếng Anh sơ trung cấp 2",
+    "weight": 2,
+    "required": "GE121 & GE112"
+  },
+  {
+    "id": "GE231",
+    "name": "Tiếng Anh trung cấp 1",
+    "weight": 2,
+    "required": "GE121 & GE222"
+  },
+  {
+    "id": "GE232",
+    "name": "Tiếng Anh trung cấp 2",
+    "weight": 2,
+    "required": "GE231 & GE222"
+  },
+  {
+    "id": "GE333",
+    "name": "Tiếng Anh trung cấp 3",
+    "weight": 2,
+    "required": "GE231 & GE232"
+  },
+  {
+    "id": "GF101",
+    "name": "Tiếng Pháp 1",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "GF102",
+    "name": "Tiếng Pháp 2",
+    "weight": 2,
+    "required": "GF101"
+  },
+  {
+    "id": "GJ101",
+    "name": "Tiếng Nhật 1",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "GJ102",
+    "name": "Tiếng Nhật 2",
+    "weight": 2,
+    "required": "GJ101"
+  },
+  {
+    "id": "GZ101",
+    "name": "Tiếng Trung 1",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "GZ102",
+    "name": "Tiếng Trung 2",
+    "weight": 2,
+    "required": "GZ101"
+  },
+  {
+    "id": "GI101",
+    "name": "Tiếng Ý 1",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "GI102",
+    "name": "Tiếng Ý 2",
+    "weight": 2,
+    "required": "GI101"
+  },
+  {
+    "id": "GK101",
+    "name": "Tiếng Hàn 1",
+    "weight": 2,
+    "required": ""
+  },
+  {
+    "id": "GK102",
+    "name": "Tiếng Hàn 2",
+    "weight": 2,
+    "required": "GK101"
+  },
+  {
+    "id": "PG100",
+    "name": "Giáo dục thể chất",
+    "weight": 4,
+    "required": ""
+  },
+  {
+    "id": "PG121",
+    "name": "Giáo dục quốc phòng",
+    "weight": 4,
+    "required": ""
+  },
+  {
+    "id": "MA104",
+    "name": "Số và cấu trúc đại số",
+    "weight": 3,
+    "required": "MA101"
+  },
+  {
+    "id": "MA110",
+    "name": "Giải tích 1",
+    "weight": 3,
+    "required": "MA120"
+  },
+  {
+    "id": "MA111",
+    "name": "Giải tích 2",
+    "weight": 3,
+    "required": "MA110"
+  },
+  {
+    "id": "MA120",
+    "name": "Đại số tuyển tính",
+    "weight": 3,
+    "required": "MA101"
+  },
+  {
+    "id": "MA239",
+    "name": "Xác suất thống kê",
+    "weight": 4,
+    "required": "MA120"
+  },
+  {
+    "id": "MI201",
+    "name": "Toán rời rạc",
+    "weight": 3,
+    "required": "CS122"
+  },
+  {
+    "id": "CF213",
+    "name": "Cấu trúc dữ liệu và giải thuật",
+    "weight": 4,
+    "required": "CS122"
+  },
+  {
+    "id": "CS110",
+    "name": "Kỹ thuật số",
+    "weight": 2,
+    "required": "MA101"
+  },
+  {
+    "id": "CS121",
+    "name": "Ngôn ngữ lập trình",
+    "weight": 3,
+    "required": "CS100"
+  },
+  {
+    "id": "CS122",
+    "name": "Lập trình hướng đối tượng",
+    "weight": 3,
+    "required": "CS121"
+  },
+  {
+    "id": "CS212",
+    "name": "Kiến trúc máy tính",
+    "weight": 3,
+    "required": "CS121"
+  },
+  {
+    "id": "CS315",
+    "name": "Nguyên lý hệ điều hành",
+    "weight": 3,
+    "required": "CS212"
+  },
+  {
+    "id": "IS222",
+    "name": "Cơ sở dữ liệu",
+    "weight": 3,
+    "required": "CS121 & MA101"
+  },
+  {
+    "id": "NW212",
+    "name": "Mạng máy tính",
+    "weight": 2,
+    "required": "CS212"
+  },
+  {
+    "id": "CF231",
+    "name": "Lý thuyết thông tin và mã hóa",
+    "weight": 2,
+    "required": "MA231 | MA239 | MA230"
+  },
+  {
+    "id": "IS314",
+    "name": "Hệ thống thông tin",
+    "weight": 3,
+    "required": "IS222"
+  },
+  {
+    "id": "IS322",
+    "name": "Hệ quản trị cơ sở dữ liệu",
+    "weight": 3,
+    "required": "IS222"
+  },
+  {
+    "id": "IS330",
+    "name": "Dữ liệu lớn",
+    "weight": 2,
+    "required": "IS222 | IS223"
+  },
+  {
+    "id": "IS332",
+    "name": "Phân tích thiết kế hướng đối tượng",
+    "weight": 3,
+    "required": "CS122 & IS222"
+  },
+  {
+    "id": "IS334",
+    "name": "Quản lý dự án hệ thống thông tin",
+    "weight": 3,
+    "required": "IS314"
+  },
+  {
+    "id": "MI322",
+    "name": "Trí tuệ nhân tạo và công nghệ tri thức",
+    "weight": 3,
+    "required": "MI201"
+  },
+  {
+    "id": "SE302",
+    "name": "Công nghệ phần mềm",
+    "weight": 2,
+    "required": "IS332"
+  },
+  {
+    "id": "CS314",
+    "name": "Lập trình ứng dụng di động",
+    "weight": 2,
+    "required": "CS122"
+  },
+  {
+    "id": "IS403",
+    "name": "Công nghệ blockchain",
+    "weight": 3,
+    "required": "CF231"
+  },
+
+  {
+    "id": "IT332",
+    "name": "Internet of Things",
+    "weight": 2,
+    "required": "SE302"
+  },
+
+  {
+    "id": "IT333",
+    "name": "Công nghệ Web",
+    "weight": 3,
+    "required": "NW212 | IS322"
+  },
+
+  {
+    "id": "IT380",
+    "name": "Dự án Công nghệ thông tin",
+    "weight": 2,
+    "required": "IS314"
+  },
+  {
+    "id": "IS326",
+    "name": "Khai phá dữ liệu",
+    "weight": 3,
+    "required": "IS322 | IS222"
+  },
+  {
+    "id": "CS223",
+    "name": "Lập trình Java",
+    "weight": 3,
+    "required": "CS122"
+  },
+  {
+    "id": "CS224",
+    "name": "Lập trình .Net",
+    "weight": 3,
+    "required": "IS222"
+  },
+  {
+    "id": "CS320",
+    "name": "Học máy",
+    "weight": 3,
+    "required": "(MA231 | MA230 | MA239) & (MI322 | AI130)"
+  },
+  {
+    "id": "CS323",
+    "name": "Lập trình JavaScript",
+    "weight": 3,
+    "required": "IS222"
+  },
+  {
+    "id": "IT320",
+    "name": "Lập trình Python",
+    "weight": 3,
+    "required": "MA120"
+  },
+  {
+    "id": "IS324",
+    "name": "Phân tích dữ liệu",
+    "weight": 3,
+    "required": "IS322"
+  },
+  {
+    "id": "SE312",
+    "name": "Kiểm thử và đảm bảo chất lượng phần mềm",
+    "weight": 3,
+    "required": "SE302"
+  },
+  {
+    "id": "MA238",
+    "name": "Thống kê nâng cao",
+    "weight": 3,
+    "required": "MA231 | MA234 | MA239"
+  },
+  {
+    "id": "MI312",
+    "name": "Đồ họa",
+    "weight": 2,
+    "required": "CS122 & MA120"
+  },
+  {
+    "id": "IP404",
+    "name": "Thực tập ngành công nghệ thông tin",
+    "weight": 2,
+    "required": "@ >= 100"
+  },
+  {
+    "id": "IT499",
+    "name": "KLTN ngành Hệ thống thông tin",
+    "weight": 6,
+    "required": "@ >= 120"
+  },
+  {
+    "id": "IT486",
+    "name": "CĐTN ngành Công nghệ thông tin",
+    "weight": 6,
+    "required": "@ >= 110"
+  },
+  {
+    "id": "AI130",
+    "name": "Nhập môn trí tuệ nhân tạo",
+    "weight": 3,
+    "required": "CS100"
+  },
+  {
+    "id": "CS321",
+    "name": "Nhập môn khoa học dữ liệu",
+    "weight": 2,
+    "required": "IS222 | IS223"
+  },
+  {
+    "id": "MA238",
+    "name": "Thông kê nâng cao",
+    "weight": 3,
+    "required": "MA231 | MA234 | MA239"
+  },
+  {
+    "id": "MI302",
+    "name": "Tối ưu hóa",
+    "weight": 2,
+    "required": "MA110 & MA120"
+  },
+  {
+    "id": "AI220",
+    "name": "Các công cụ lập trình trí tuệ nhân tạo",
+    "weight": 3,
+    "required": "CS122"
+  },
+  {
+    "id": "CS320",
+    "name": "Học máy",
+    "weight": 3,
+    "required": "(MA231 | MA230 | MA239) & (MI322 | AI130)"
+  },
+  {
+    "id": "AI310",
+    "name": "Học sâu",
+    "weight": 3,
+    "required": "CS320"
+  },
+  {
+    "id": "IS330",
+    "name": "Dữ liệu lớn",
+    "weight": 2,
+    "required": "IS222 | IS223"
+  },
+  {
+    "id": "IS332",
+    "name": "Phân tích thiết kế hướng đối tượng",
+    "weight": 3,
+    "required": "IS322 & IS222"
+  },
+  {
+    "id": "IS326",
+    "name": "Khai phá dữ liệu",
+    "weight": 3,
+    "required": "IS322 | IS222"
+  },
+  {
+    "id": "AI320",
+    "name": "Xử lý ngôn ngữ tự nhiên",
+    "weight": 3,
+    "required": "CS320"
+  },
+  {
+    "id": "AI321",
+    "name": "Thị giác máy tính",
+    "weight": 3,
+    "required": "CS320"
+  }
+]
