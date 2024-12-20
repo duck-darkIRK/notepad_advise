@@ -1,7 +1,9 @@
 from datetime import datetime
 import sys
 import httpx
-from PyQt5.QtWidgets import QWidget, QTableWidget, QTableWidgetItem, QVBoxLayout, QApplication
+from PyQt5.QtWidgets import (
+    QWidget, QTableWidget, QTableWidgetItem, QVBoxLayout, QApplication, QPushButton
+)
 
 from env import SERVER_PORT
 from http_manage import HTTPClientManager
@@ -22,8 +24,12 @@ class GradesTab(QWidget):
             ["Mã môn", "Tên môn", "Số tín chỉ", "Điểm", "Thời gian hoàn thành", "Ghi chú"]
         )
 
+        self.reload_button = QPushButton("Tải lại dữ liệu")
+        self.reload_button.clicked.connect(self.load_data)
+
         layout = QVBoxLayout()
         layout.addWidget(self.grades_table)
+        layout.addWidget(self.reload_button)
         self.setLayout(layout)
 
     def fetch_data(self):

@@ -46,6 +46,9 @@ class ScoreTab(QWidget):
         self.save_button = QPushButton("Lưu điểm")
         self.save_button.clicked.connect(self.save_score)
 
+        self.delete_button = QPushButton("Xóa điểm")
+        self.delete_button.clicked.connect(self.delete_score)
+
         self.credits_completed_label = QLabel("Tín chỉ đã học: 0")
         self.total_credits_label = QLabel("Tổng số tín: 0")
         self.avg_score_label = QLabel("Điểm trung bình (thang 10): 0.0")
@@ -68,11 +71,15 @@ class ScoreTab(QWidget):
         subject_layout.addWidget(self.subject_input)
         subject_layout.addWidget(self.score_input)
 
+        button_layout = QHBoxLayout()
+        button_layout.addWidget(self.delete_button)
+        button_layout.addWidget(self.save_button)
+
         layout.addLayout(summary_layout)
         layout.addLayout(subject_layout)
         layout.addWidget(self.subject_suggestions_list)
         layout.addWidget(self.note_input)
-        layout.addWidget(self.save_button)
+        layout.addLayout(button_layout)
 
         self.setLayout(layout)
 
@@ -115,6 +122,21 @@ class ScoreTab(QWidget):
         else:
             print("Lưu điểm thất bại.")
 
+    def delete_score(self):
+        subject = self.subject_input.text()
+
+        if not subject:
+            self.show_notification("Error", "Vui lòng chọn một môn học để xóa.")
+            return
+
+        success = self.delete_score_from_api(subject)
+
+        if success:
+            self.update_summary()
+            print(f"Đã xóa điểm cho {subject}.")
+        else:
+            print("Xóa điểm thất bại.")
+
     def save_score_to_api(self, subject, score, note):
         try:
             client = HTTPClientManager.get_client()
@@ -135,6 +157,24 @@ class ScoreTab(QWidget):
                 return False
         except Exception as e:
             self.show_notification("Error", f"An error occurred while saving the score: {e}")
+            return False
+
+    def delete_score_from_api(self, subject):
+        try:
+            client = HTTPClientManager.get_client()
+
+            payload = {"subject_id": subject}
+
+            response = client.post(SERVER_PORT + "/remove-score/", json=payload)
+
+            if response.status_code == 200:
+                self.show_notification("Success", "Score deleted successfully.")
+                return True
+            else:
+                self.show_notification("Error", f"Failed to delete score: {response.status_code}")
+                return False
+        except Exception as e:
+            self.show_notification("Error", f"An error occurred while deleting the score: {e}")
             return False
 
     def show_notification(self, title, message):

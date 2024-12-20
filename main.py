@@ -470,6 +470,45 @@ async def add_score(request: Request, db: Session = Depends(get_db)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Đã xảy ra lỗi: {str(e)}")
 
+@app.post("/remove-score/")
+async def remove_score(request: Request, db: Session = Depends(get_db)):
+    profile = verify_cookie_and_session(request, db)
+    user_id = profile["user"]["id"]
+
+    body = await request.json()
+    subject_id = body.get("subject_id")
+
+    if not user_id or not subject_id:
+        raise HTTPException(status_code=400, detail="Thiếu thông tin đầu vào")
+
+    try:
+        association = db.execute(
+            user_subject_association.select().where(
+                user_subject_association.c.user_id == user_id,
+                user_subject_association.c.subject_id == subject_id
+            )
+        ).first()
+
+        if not association:
+            raise HTTPException(status_code=404, detail="Quan hệ giữa người dùng và môn học không tồn tại")
+
+        # Xóa quan hệ
+        db.execute(
+            user_subject_association.delete().where(
+                user_subject_association.c.user_id == user_id,
+                user_subject_association.c.subject_id == subject_id
+            )
+        )
+
+        db.commit()
+        return {"message": "Xóa quan hệ thành công"}
+
+    except SQLAlchemyError as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=f"Lỗi cơ sở dữ liệu: {str(e)}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Đã xảy ra lỗi: {str(e)}")
+
 @app.get("/user-scores/")
 async def get_user_scores(request: Request, db: Session = Depends(get_db)):
     try:
